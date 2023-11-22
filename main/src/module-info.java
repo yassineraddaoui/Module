@@ -1,3 +1,3 @@
 module main {
-    requires delivery;
+    requires  delivery;
 }

@@ -1,4 +1,4 @@
 module delivery {
-    requires invoicing;
+    requires transitive invoicing;
     exports delivery;
 }
