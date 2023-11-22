@@ -1,0 +1,3 @@
+module ServicesInModule {
+    exports hello;
+}

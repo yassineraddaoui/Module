@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Hello/HelloEnglish/HelloEnglish.iml" filepath="$PROJECT_DIR$/Hello/HelloEnglish/HelloEnglish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello/HelloFrench/HelloFrench.iml" filepath="$PROJECT_DIR$/Hello/HelloFrench/HelloFrench.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module.iml" filepath="$PROJECT_DIR$/Module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello/ServicesInModule.iml" filepath="$PROJECT_DIR$/Hello/ServicesInModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hello/client/client.iml" filepath="$PROJECT_DIR$/Hello/client/client.iml" />
       <module fileurl="file://$PROJECT_DIR$/delivery/delivery.iml" filepath="$PROJECT_DIR$/delivery/delivery.iml" />
       <module fileurl="file://$PROJECT_DIR$/invoicing/invoicing.iml" filepath="$PROJECT_DIR$/invoicing/invoicing.iml" />
       <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
     </modules>
   </component>
 </project>
