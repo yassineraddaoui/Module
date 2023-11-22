@@ -1,5 +1,5 @@
 # Module 
-use of Module feature introduced in java 8 :
+use of Module feature introduced in java 8 :<br>
 requires
 exports
 transitive (java.se purpose)
