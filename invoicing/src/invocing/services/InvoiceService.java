@@ -1,13 +1,14 @@
 package invocing.services;
 
 import invocing.model.Invoice;
+import invocing.services.Impli.InvoiceServiceImpl;
 
 import java.util.List;
 
-public class InvoiceService {
-    public List<Invoice> generateInvoices(){
-        var i=new Invoice();
-        i.setAmount(10);
-        return List.of(i);
+public interface InvoiceService {
+    List<Invoice> generateInvoices();
+
+    static InvoiceService build() {
+        return new InvoiceServiceImpl();
     }
 }

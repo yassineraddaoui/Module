@@ -6,7 +6,7 @@ import invocing.services.InvoiceService;
 import java.util.List;
 
 public class DeliveryService {
-    private InvoiceService service = new InvoiceService();
+    private final InvoiceService service = InvoiceService.build();
 
     public void deliver(){
         List<Invoice> invoiceList = service.generateInvoices();
